@@ -1061,15 +1061,15 @@ border: 1px solid #b59f5b;
   }
 
   .card {
-    /*margin-bottom: 3vh;
+    margin-bottom: 3vh;
     margin-left: 2.3vw;
     margin-right: 2.3vw;
-    padding: 5vh 4.5vw;*/
+    padding: 5vh 4.5vw;
 
-    margin-bottom: 1.5vh;
+    /*margin-bottom: 1.5vh;
     margin-left: 2.3vw;
     margin-right: 2.3vw;
-    padding: 2.5vh 4.5vw;
+    padding: 2.5vh 4.5vw;*/
   }
 
   .trend-list {
@@ -1081,12 +1081,12 @@ border: 1px solid #b59f5b;
     line-height: 22px;
   }
 
-  .card-title-first {
+  /*.card-title-first {
     max-width: 200px;
-  }
+  }*/
 
   .page {
-    padding-top: 40px;
+    padding-top: 46px;
   }
 
   .main {
@@ -1105,9 +1105,15 @@ border: 1px solid #b59f5b;
     margin-bottom: 50px;
   }
 
+  .article-img-box {
+    /*width: 100%;*/
+    min-width: 393px;
+    height: 303px;
+  }
+
   .article-img {
-      /*width: 100%;*/
-      min-height: 303px
+    min-width: 393px;
+    height: 100%;
   }
 
   .article-content {
@@ -1158,16 +1164,24 @@ border: 1px solid #b59f5b;
     margin-left: 0; 
   }
 
+  .product:nth-child(n+3) {
+    margin-top: 13px;
+  }
+
   .card-img {
     min-height: 227px;
   }
 
   .product-info {
-    padding: 15% 7% 9% 7%;
-    margin-top: -50px;
+    /*padding: 15% 7% 9% 7%;
+    margin-top: -50px;*/
+
+    padding: 16% 8% 9% 7%;
+    margin-top: -38px;
   }
 
-  .product-info:nth-child(2) {
+  .last-product-info {
+    padding: 14% 7% 9% 7%;
     min-height: 247px;
   }
 
@@ -1186,6 +1200,10 @@ border: 1px solid #b59f5b;
 
   .price-shop {
     padding-top: 20px;
+  }
+
+  .first-price-shop {
+    padding-bottom: 20px;
   }
 
   .address {
@@ -1273,7 +1291,9 @@ border: 1px solid #b59f5b;
 
 @media (max-width: 640px) {
   .header {
-    padding: 30px 15px 220px;
+    /*padding: 30px 15px 220px;*/
+
+    /*padding: 27px 33px 210px;*/
     background-image: url('../images/banner-mobile.jpg');
     width: 100%;
     min-height: 639px;
@@ -1311,8 +1331,9 @@ border: 1px solid #b59f5b;
 
   .heading {
     font-size: 26px;
-    padding: 24px 0 0 0;
-    line-height: 1.5;
+
+    padding: 30px 0 0 0;
+    line-height: 1.4;
   }
 
   .menu__button {
@@ -1370,24 +1391,31 @@ border: 1px solid #b59f5b;
   }
 
   .trends-title {
-    padding-top: 4px;
+    padding-top: 18px;
     font-size: 16px;
   }
 
   .trends-card {
     padding-top: 20px;
+
+    padding-top: 24px;
     flex-direction: column;
   }
 
   .trend {
     margin-bottom: 3px;
-    min-height: 247px;
+    min-height: 231px;
     padding: 15px 15px;
     width: 100%;
   }
 
   .card {
-    /*margin-bottom: 3vh;
+    /*margin-bottom: 0vh;
+    margin-left: 8.3vw;
+    margin-right: 8.3vw;
+    padding: 3.5vh 4.5vw;*/
+
+   /* margin-bottom: 3vh;
     margin-left: 2.3vw;
     margin-right: 2.3vw;
     padding: 5vh 4.5vw;*/
@@ -1397,11 +1425,20 @@ border: 1px solid #b59f5b;
     margin-right: 2.3vw;
     padding: 2.5vh 4.5vw;*/
 
-    padding: 30px 15px;
+    margin-bottom: 0.5vh;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    padding: 3vh 4vw;
+
+
+    /*padding: 30px 15px;*/
   }
 
   .trend-list {
-    padding-bottom: 7px;
+    /*padding-bottom: 7px*/
+
+    padding-top: 5px;
+    padding-left: 7px;
   }
 
   .trend-item {
@@ -1411,6 +1448,9 @@ border: 1px solid #b59f5b;
 
   .card-title {
     width: 100%;
+
+    /*margin-top: 20px;*/
+    padding-left: 5px;
   }
 
   .card-title>a {
@@ -1423,7 +1463,7 @@ border: 1px solid #b59f5b;
   .page {
     width: 100%;
     flex-direction: column;
-    padding-top: 45px;
+    padding-top: 40px;
   }
 
   .main {
@@ -1432,18 +1472,24 @@ border: 1px solid #b59f5b;
 
   .article {
     flex-direction: column;
+    margin-bottom: 47px;
   }
 
 
   .article:nth-child(n+3) {
     
-    /*margin-bottom: 50px;*/
+    margin-bottom: 48px;
+  }
+
+  .article-img-box {
+    width: 100%;
+    height: 254px;
   }
 
   .article-img {
     min-width: 0;
     width: 100%;
-    min-height: 254px;
+    height: 100%;
     margin-right: 0;
   }
 
@@ -1455,8 +1501,8 @@ border: 1px solid #b59f5b;
   .article-title {
     font-size: 16px;
 
-    padding-top: 7px;
-    margin-bottom: 29px;
+    font-size: 16px;
+    padding-top: 5px;
   }
 
   .width-post-title {
@@ -1464,7 +1510,8 @@ border: 1px solid #b59f5b;
   }
 
   .article-info {
-     margin-bottom: 30px;
+     margin-bottom: 15px;
+     margin-top: 0;
   }
 
   .article-desc {
@@ -1479,6 +1526,14 @@ border: 1px solid #b59f5b;
     max-width: 100%;
   }
 
+  .aside-block {
+    margin-bottom: 40px;
+  }
+
+  .aside-block:nth-child(3) {
+    margin-bottom: 40px;
+  }
+
   .aside-title {
     font-size: 16px;
   }
@@ -1486,6 +1541,10 @@ border: 1px solid #b59f5b;
   .subject {
     line-height: 18px;
     max-width: 238px;
+  }
+
+  .new-post {
+    margin-bottom: 16px;
   }
 
   .new-post-img {
@@ -1497,23 +1556,34 @@ border: 1px solid #b59f5b;
     padding: 14px 20px;
   }
 
-  .tag-list {
-    justify-content: space-between;
-  }
-
   .tag-list-item:nth-child(n+4) {
     margin-top: 0;
   }
 
+  .tag-list-item {
+   /* padding-top: 8px;*/
+    margin-bottom: -7px;
+  }
+
+  .tag-list-link {
+    padding: 3px 10px;
+    margin-right: 10px;
+  }
+
   .products {
     width: 100%;
-    /*padding: 0 15px 50px;*/
+    padding-top: 30px;
+  }
+
+  .products-title {
+    font-size: 16px;
   }
 
   .products-card {
     flex-direction: column;
     padding-right: 0;
     padding-left: 0;
+    margin-bottom: 35px;
   }
 
   .product {
@@ -1525,21 +1595,51 @@ border: 1px solid #b59f5b;
     margin-left: 0;
   }
 
-  .products-title {
-    font-size: 16px;
+  .product-pic {
+    max-width: 286px;
+    height: 286px;
+    margin: 0 auto;
   }
 
   .product-info {
     min-height: 220px;
     margin: -33px -20px -50px -20px;
-  }
-
-  .object-title {
-    font-size: 17px;
+    padding: 17px;
   }
 
   .card-img {
     height: 100%;
+  }
+
+  .object-title {
+    font-size: 17px;
+    padding-top: 30px;
+  }
+
+  .product-desc {
+    line-height: 22px;
+    padding: 4px 0;
+  }
+
+  .price-shop {
+    padding-top: 17px;
+  }
+
+  .product:nth-child(n+2) {
+    margin-top: 16px;
+  }
+
+  .product-info:nth-child(n+2) {
+   /* margin: -36px -20px -40px -20px;*/
+   padding-bottom: 24px;
+  }
+
+  .shop-button {
+    margin-right: 4px;
+  }
+
+  .address {
+    margin-bottom: 49px;
   }
 
 }

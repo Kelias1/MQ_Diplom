@@ -16,34 +16,7 @@
 						<img src="svg/noemi-logo.svg" alt="Логотип" class="logo">
 					</a>
       			</div>
-<!-- HAMBURGER MENU START -->
-				<!-- <nav class="hamburger_menu">
-					<input type="checkbox" id="menu_toggle">
-					<label for="menu_toggle" class="burger-button">
-						<span></span>
-					</label>
-					<ul class="menu__list">
-						<li class="menu__list-item">
-							<a href="#0" class="menu__link">главная</a>
-						</li>
-						<li class="menu__list-item">
-							<a href="#0" class="menu__link">посты</a>
-						</li>
-						<li class="menu__list-item">
-							<a href="#0" class="menu__link">статьи</a>
-						</li>
-						<li class="menu__list-item">
-							<a href="#0" class="menu__link">теги</a>
-						</li>
-						<li class="menu__list-item">
-							<a href="#0" class="menu__link">темы</a>
-						</li>
-						<li class="menu__list-item">
-							<a href="#0" class="menu__link">контакты</a>
-						</li>
-					</ul>
-				</nav> -->
-<!-- HAMBURGER MENU END -->
+
       			<nav class="nav-menu">
       				<button class="menu__button">
             			<span class="menu__button-label"></span>
@@ -78,13 +51,8 @@
 
 	<div class="popup popup-hidden">
 		<div class="popup-container">
-			<!-- <div class="feedback"> -->
-				<!-- <header class="feedback-header"> -->
 					<form class="feedback-form">
 					<h3 class="feedback-title">ваш фидбек</h3>
-				<!-- </header> -->
-				<!-- <div class="feedback-content"> -->
-					<!-- <form class="feedback-form"> -->
 						<div class="feedback-wrapper">
 							<label>
 								<span class="feedback-question">Как часто вы заходите на сайт?</span>
@@ -117,56 +85,11 @@
 							<button class="feedback-button" type="submit">отправить</button>
 						</div>
 					</form>
-				<!-- </div>// -->
-			<!-- </div>// -->
 			<button type="button" class="popup-close">
 				<span class="visually-hidden">закрыть окно</span>
 			</button>
 		</div>
 	</div>
-
-	<!-- <div class="popup-container popup-static popup-hidden">
-		<div>
-			<button type="button" class="popup-close">
-				<span class="visually-hidden">закрыть окно</span>
-			</button>
-			<form class="popup-form">
-				<div class="form-wrapper">
-					<h3 class="popup-title">ваш фидбек</h3>
-				</div>
-				<div class="form-wrapper">
-					<label>
-						<span>Как часто вы заходите на сайт?</span>
-						<select class="select">
-							<option selected>Почти каждый день</option>
-							<option>Раз в неделю</option>
-							<option >Раз в месяц</option>
-						</select>
-					</label>
-				</div>
-				<div class="form-wrapper">
-					<span> Вы подписаны на email-рассылку?</span>
-
-					<div>
-    					<input type="radio" class="radio" id="radio_yes" name="yes_no" value="yes" checked>
-    					<label for="radio_yes">да</label>
-    					<input type="radio" class="radio" id="radio_no" name="yes_no" value="no">
-    					<label for="radio_no">нет</label>
-					</div>
-				</div>
-
-				<div class="form-wrapper">
-					<label for="message">
-						<span>Расскажите, какой контент вы бы хотели видеть на нашем сайте?</span>
-						<textarea id="message" name="text" class="textarea" placeholder="Может, больше рецептов?" required></textarea>
-					</label>
-				</div>
-				<div class="form-wrapper">
-					<button class="button_popup" type="submit">отправить</button>
-				</div>
-			</form>
-		</div>
-	</div> -->
 
 <!-- TRENDS -->
 	<section class="trends">
@@ -243,7 +166,10 @@
 			<main class="main">
 	<!-- 1 -->
 				<article class="article">
-					<img src="images/last-post1.jpg" alt="мужчина гуляет по набережной" class="article-img">
+					<div class="article-img-box">
+						<img src="images/last-post1.jpg" alt="мужчина гуляет по набережной" class="article-img">
+					</div>
+					<!-- <img src="images/last-post1.jpg" alt="мужчина гуляет по набережной" class="article-img"> -->
 					<div class="article-content">
 						<ul class="tags">
 							<li class="tags-item">
@@ -265,7 +191,10 @@
 			 	</article>
  <!-- 2 -->
      	 		<article class="article">
-     	 			<img src="images/last-post2.jpg" alt="йога на пляже" class="article-img">
+     	 			<div class="article-img-box">
+     	 				<img src="images/last-post2.jpg" alt="йога на пляже" class="article-img">
+     	 			</div>
+     	 			<!-- <img src="images/last-post2.jpg" alt="йога на пляже" class="article-img"> -->
      	 			<div class="article-content">
      	 				<ul class="tags">
      	 					<li class="tags-item">
@@ -287,7 +216,10 @@
 	  			</article>
  <!--  3 -->
     			<article class="article">
-      				<img src="images/last-post3.jpg" alt="девушка на концерте" class="article-img">
+    				<div class="article-img-box">
+    					<img src="images/last-post3.jpg" alt="девушка на концерте" class="article-img">
+    				</div>
+      				<!-- <img src="images/last-post3.jpg" alt="девушка на концерте" class="article-img"> -->
       				<div class="article-content">
       					<ul class="tags">
 			          		<li class="tags-item">
@@ -307,7 +239,10 @@
 				</article>
 <!-- 4 -->
 				<article class="article">
-      				<img src="images/last-post4.jpg" alt="еда на столе" class="article-img">
+					<div class="article-img-box">
+						<img src="images/last-post4.jpg" alt="еда на столе" class="article-img">
+					</div>
+      				<!-- <img src="images/last-post4.jpg" alt="еда на столе" class="article-img"> -->
       				<div class="article-content">
         				<ul class="tags">
           					<li class="tags-item">
@@ -329,7 +264,10 @@
 		 		</article>
 <!-- 5 -->
 				<article class="article">
-      				<img src="images/last-post5.jpg" alt="подушка на стуле" class="article-img">
+					<div class="article-img-box">
+						<img src="images/last-post5.jpg" alt="подушка на стуле" class="article-img">
+					</div>
+      				<!-- <img src="images/last-post5.jpg" alt="подушка на стуле" class="article-img"> -->
       				<div class="article-content">
       					<ul class="tags">
 			          		<li class="tags-item">
@@ -499,7 +437,7 @@
  							<a href="#0">Подушки на диван</a>
  						</h3>
  						<p class="product-desc">Набор из двух подушек с модными принтами. Видео о создании <a href="#0" class="product-link">здесь</a><span>.</span></p>
- 						<div class="price-shop">
+ 						<div class="price-shop first-price-shop">
  							<div class="price">
  								<p class="old-price">1000 ₽</p>
  								<p class="new-price">800 ₽</p>
