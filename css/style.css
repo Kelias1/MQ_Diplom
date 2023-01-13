@@ -318,7 +318,7 @@ margin-left: 35px;
   z-index: 0;
   width: calc(25% - 3px);
   /*min-height: 320px;*/
-  min-height: 79.6vh;
+  min-height: 20rem;
 }
 
 .trend::after {
