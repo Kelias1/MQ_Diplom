@@ -1755,3 +1755,25 @@ border: 1px solid #b59f5b;
     margin-left: 0;
   }
 }
+
+@media (max-width: 640px) and (orientation: portrait) {
+
+  .trends-card {
+    flex-direction: column;
+  }
+
+  .trend {
+    width: 100%;
+    margin-top: 3px;
+  }
+
+  .trend:first-child {
+    margin-top: 0;
+  }
+
+
+  .products-card {
+    flex-direction: column;
+  }
+
+}
