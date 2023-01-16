@@ -96,7 +96,7 @@ margin-left: 35px;
 
 .heading {
   /*max-width: 700px;*/
-  max-width: 48.6vw;
+  max-width: 43.8rem;
   /*font-size: 45px;*/
   font-size: 2.8rem;
   line-height: 1.6;
@@ -134,16 +134,7 @@ margin-left: 35px;
   margin: auto;
   background-color: #ffffff;
   position: relative;
-}
-
-.feedback {
-  background-color: #fff;
-  color: #222;
-}
-
-.feedback-header {
-  padding-top: 40px;
-  text-align: center;
+  height: 50%;
 }
 
 .feedback-title {
@@ -152,8 +143,12 @@ margin-left: 35px;
   font-weight: bold;
   font-size: 20px;
   /*font-size: 2.2em;*/
-  margin-top: 0;
-  margin-bottom: 0.35em;
+  /*margin-top: 0;
+  margin-bottom: 0.35em;*/
+}
+
+.feedback-title-box {
+  padding-top: 15px;
 }
 
 .feedback-title:after {
@@ -162,8 +157,10 @@ margin-left: 35px;
   margin-left: auto;
   margin-right: auto;
   width: 65px;
-  margin-top: 15px;
-  margin-bottom: 25px;
+  /*margin-top: 15px;*/
+  margin-top: 9px;
+  /*margin-bottom: 25px;*/
+  margin-bottom: 24px;
   border-bottom: 3px solid #e1d9bd;
 }
 
@@ -171,12 +168,18 @@ margin-left: 35px;
   box-sizing: border-box;
   width: 390px;
   min-height: 100%;
-  padding: 30px;
+  /*padding: 30px;*/
+  /*padding: 53px 30px 30px;*/
+  padding: 37px 30px 30px;
   background-color: #ffffff;
 }
 
 .feedback-wrapper {
-  margin-bottom: 30px;
+  margin-bottom: 19px;
+}
+
+.feedback-wrapper:nth-child(4) {
+  margin-bottom: 0;
 }
 
 .select {
@@ -250,12 +253,12 @@ margin-left: 35px;
 
 .popup-close {
   background-image: url('../svg/form-x.svg');
-  width: 1.4em;
+  width: 1em;
   height: 1em;
-  font-size: 20px;
-  position: absolute;
+  font-size: 17px;
   top: -1.5em;
   right: 0;
+  position: absolute;
   background-color: transparent;
   border: none;
   padding: 0;
@@ -1033,10 +1036,15 @@ border: 1px solid #b59f5b;
     width: 20.58vw;
   }
 
+  .heading-box {
+    min-width: 604px;
+    margin: auto;
+  }
+
   .heading {
     font-size: 2.5rem;
     line-height: 1.5;
-    width: 92%;
+    max-width: 92%;
     padding-top: 81px;
   }
 
@@ -1115,10 +1123,10 @@ border: 1px solid #b59f5b;
   }
 
   .card {
-    margin-bottom: 3vh;
+    margin-bottom: 2vh;
     margin-left: 2.3vw;
     margin-right: 2.3vw;
-    padding: 5vh 4.5vw;
+    padding: 28px 34px;
 
     /*margin-bottom: 1.5vh;
     margin-left: 2.3vw;
@@ -1141,7 +1149,7 @@ border: 1px solid #b59f5b;
   }*/
 
   .page {
-    padding-top: 46px;
+    padding-top: 44px;
   }
 
   .main {
@@ -1158,7 +1166,7 @@ border: 1px solid #b59f5b;
 
   .article:nth-child(n+3) {
     
-    margin-bottom: 50px;
+    margin-bottom: 48px;
   }
 
   .article-img-box {
@@ -1181,7 +1189,7 @@ border: 1px solid #b59f5b;
   }
 
   .article-title {
-    padding-top: 7px;
+    padding-top: 5px;
     /*font-size: 17px;*/
     font-size: 1.1rem;
     margin-bottom: 29px;
@@ -1197,6 +1205,14 @@ border: 1px solid #b59f5b;
   .last-article-desc {
     /*max-width: 356px;*/
     max-width: 22.3rem;
+  }
+
+  .aside-title {
+    margin-bottom: 18px;
+  }
+
+  .new-post {
+    margin-bottom: 13px;
   }
 
   .products {
@@ -1364,7 +1380,7 @@ border: 1px solid #b59f5b;
     background-image: url('../images/banner-mobile.jpg');
     width: 100%;
     /*min-height: 639px;*/
-    min-height: 21.2rem;
+    min-height: 40rem;
   }
 
   .container {
@@ -1475,9 +1491,7 @@ border: 1px solid #b59f5b;
   }
 
   .trends-card {
-    padding-top: 20px;
-
-    padding-top: 24px;
+    padding-top: 18px;
     flex-direction: column;
   }
 
@@ -1561,7 +1575,7 @@ border: 1px solid #b59f5b;
 
   .article:nth-child(n+3) {
     
-    margin-bottom: 48px;
+    margin-bottom: 50px;
   }
 
   .article-img-box {
@@ -1578,7 +1592,7 @@ border: 1px solid #b59f5b;
   }
 
   .article-content {
-    padding-top: 10px;
+    padding-top: 6px;
     /*max-width: 393px;*/
     max-width: 24.6rem;
   }
@@ -1613,7 +1627,7 @@ border: 1px solid #b59f5b;
   }
 
   .aside-block {
-    margin-bottom: 40px;
+    margin-bottom: 36px;
   }
 
   .aside-block:nth-child(3) {
@@ -1632,7 +1646,7 @@ border: 1px solid #b59f5b;
   }
 
   .new-post {
-    margin-bottom: 16px;
+    margin-bottom: 6px;
   }
 
   .new-post-img {
