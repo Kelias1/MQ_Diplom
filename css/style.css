@@ -1164,14 +1164,22 @@ border: 1px solid #b59f5b;
     /*justify-content: space-around;*/
   }
 
+ /* ANTES DE CAMBIOS 25.01.23
   .main {
-    /*max-width: 393px;*/
-    max-width: 24.6rem;
-    /*max-width: 684px;*/
-    /*max-width: 42.8rem;*/
+    max-width: 393px; INACTIVO
+    max-width: 24.6rem; ACTIVO
+    max-width: 684px; INACTIVO
+    max-width: 42.8rem; INACTIVO
+    margin-right: 30px; ACTIVO
+    flex-grow: 1; ACTIVO
+  }*/
+
+  .main {
     margin-right: 30px;
-    flex-grow: 1;
-  }
+    flex: 1;
+    width: 50%;
+}
+
 
   .article {
      box-sizing: border-box;
@@ -1184,23 +1192,36 @@ border: 1px solid #b59f5b;
     margin-bottom: 48px;
   }
 
+  /*ANTES CAMBIO 25.01.23
   .article-img-box {
-    /*min-width: 393px;*/
-   /* min-width: 24.6rem;*/
-    /*height: 303px;*/
-    height: 18.94rem;
+    min-width: 393px; INACTIVO
+    min-width: 24.6rem; INACTIVO
+    height: 303px; INACTIVO
+    height: 18.94rem; ACTIVO
+  }*/
+
+  .article-img-box {
+    width: 100%;
   }
 
+  /*ANTES CAMBIO 25.01.23
   .article-img {
-   /* min-width: 393px;*/
-    min-width: 24.6rem;
-    height: 100%;
+    min-width: 393px; INACTIVO
+    min-width: 24.6rem; ACTIVO
+    height: 100%; ACTIVO
+  }*/
+
+  .article-img {
+    min-width: 100%;
+    width: 50%;
+    margin-right: 0;
   }
 
   .article-content {
     padding-top: 10px;
     /*max-width: 393px;*/
-    max-width: 24.6rem;
+    /*max-width: 24.6rem;*/
+    max-width: 100%;
   }
 
   .article-title {
