@@ -571,6 +571,10 @@ color: #b59f5b;
   background-color: #f4f7f6;
 }
 
+.second-post-img {
+  width: 4.4rem;
+}
+
 .new-post-img:first-child {
   margin-top: 6px;
 }
@@ -1231,7 +1235,8 @@ border: 1px solid #b59f5b;
     margin-bottom: 29px;
 
     /*width: 395px;*/
-    width: 24.7rem;
+    /*width: 24.7rem;*/
+    width: 100%;
   }
 
   .article-info {
