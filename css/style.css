@@ -564,16 +564,12 @@ color: #b59f5b;
 }
 
 .new-post-img {
-  /*width: 70px;*/
-  width: 5rem;
+  width: 70px;
+  /*width: 5rem;*/
   margin-right: 17px;
   object-fit: cover;
   background-color: #f4f7f6;
 }
-
-/*.second-post-img {
-  width: 4.4rem;
-}*/
 
 .new-post-img:first-child {
   margin-top: 6px;
