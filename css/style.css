@@ -1027,10 +1027,11 @@ border: 1px solid #b59f5b;
 
   .container {
     /*max-width: 768px;*/
-    max-width: 48rem;
+    /*max-width: 48rem;*/
     /*max-width: 1199px;
     max-width: 74.94rem;*/
     padding: 0 35px;
+    width: 100%;
   }
 
   .menu {
@@ -1747,10 +1748,11 @@ border: 1px solid #b59f5b;
 
   .product-pic {
     /*max-width: 286px;*/
-    max-width: 17.9rem;
+    /*max-width: 17.9rem;*/
     /*height: 286px;*/
-    height: 17.9rem;
+    /*height: 17.9rem;*/
     margin: 0 auto;
+    width: 100%;
   }
 
   .product-info {
@@ -1760,7 +1762,7 @@ border: 1px solid #b59f5b;
     padding: 17px;
     flex-grow: 0;
     /*max-width: 331px;*/
-    max-width: 20.7rem;
+    /*max-width: 20.7rem;*/
   }
 
   .card-img {
